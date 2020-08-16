@@ -6,7 +6,7 @@ with open("readme.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="unsplashbot",  # Replace with your own username
+    name="unsplash-bot",  # Replace with your own username
     version="0.0.1",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
