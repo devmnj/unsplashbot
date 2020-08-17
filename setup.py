@@ -11,7 +11,7 @@ setuptools.setup(
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="unsplash bot",
-    long_description="A selenium bots for automate stock free image downloading",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/manojap/unsplashbot",
     packages=setuptools.find_packages(),
