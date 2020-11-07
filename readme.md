@@ -22,7 +22,8 @@ or
 pip install git+https://github.com/manojap/unsplashbot.git
 
 from unsplashbot import unsplash
-unsplash.search('fruits').download()
+unsplash.search().filter_by_tag('flower')
+unsplash.search().find('flowers')
 ```
 
 ## On Linux or Mac
@@ -37,7 +38,8 @@ git clone https://github.com/manojap/unsplashbot.git
 pip install -r requirements.txt
 
 from unsplashbot import unsplash
-unsplash.search('fruits').download()
+unsplash.search().filter_by_tag('fruit')
+unsplash.search().find('flowers')
 ```
 
 # Default Save location  - Firefox
